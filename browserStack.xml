@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Single">
+    <listeners>
+        <listener class-name="TestNGListeners.Listeners"></listener>
+    </listeners>
+    <test name="SingleTest">
+        <parameter name="config" value="BrowserStackSingleTest.json"/>
+        <parameter name="environment" value="Chrome"/>
+        <classes>
+            <class name="BrowserStackCases.GoogleTest"/>
+        </classes>
+    </test>
+</suite>

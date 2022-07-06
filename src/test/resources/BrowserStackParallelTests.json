@@ -1,0 +1,31 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "saajansoni_6Hxlk8",
+  "key": "HjC5zssPLLVUQE38uo9m",
+
+  "capabilities": {
+    "build": "browserstack-build-3",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "Chrome": {
+      "browser": "Chrome",
+      "browser_version": "latest",
+      "os": "Windows",
+      "os_version": 10
+    },
+    "Firefox": {
+      "browser": "Firefox",
+      "browser_version": "latest",
+      "os": "Windows",
+      "os_version": "11"
+    },
+    "Edge": {
+      "browser": "Edge",
+      "browser_version": "latest",
+      "os": "Windows",
+      "os_version": 11
+    }
+  }
+}

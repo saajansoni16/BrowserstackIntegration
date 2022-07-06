@@ -1,0 +1,19 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "saajansoni_6Hxlk8",
+  "key": "HjC5zssPLLVUQE38uo9m",
+
+  "capabilities": {
+    "build": "browserstack-build-1",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "Chrome": {
+      "browser": "chrome",
+      "browser_version": "latest",
+      "os": "Windows",
+      "os_version": 10
+    }
+  }
+}
